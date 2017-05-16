@@ -1,0 +1,137 @@
+.header {
+  color: #fff;
+  width: 100%; 
+  z-index: 40;
+  padding: 15px inherit;
+ background: url("https://upload.cc/i/9fQUgG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transition: padding 0.6s ease-in-out;
+  -moz-transition: padding 0.6s ease-in-out;
+  -ms-transition: padding 0.6s ease-in-out;
+  -o-transition: padding 0.6s ease-in-out;
+}
+
+.header h1.logo {
+  font-family: "Russo One", arial, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 800;
+  font-size: 26px;
+  float: left;
+  line-height: 1.8;
+}
+.header h1.logo a {
+  color: #fff;
+}
+
+.header .main-nav .navbar-toggle {
+  margin-right: 0;
+  margin-top: 0;
+  background: none;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+
+.header .main-nav .navbar-toggle .icon-bar {
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 3px;
+}
+.header .main-nav .navbar-toggle:hover .icon-bar {
+  background-color: #fff;
+}
+.maps {
+    max-width: 100%;
+  display: block;
+    margin: 20px auto;
+  margin-bottom: 20px;
+}
+
+.fakeButton {
+background: #023e59; 
+background: -webkit-linear-gradient(to left, #085f75, #034260, #035355); 
+background: linear-gradient(to left, #085f75, #034260, #035355); 
+  padding: 10px 55px;
+  width: 60%;
+  border-radius: 15px;
+  color: #fff;
+  text-decoration: none;
+  margin: 60px 10px;
+}
+
+.fakeButton:hover {
+  background: #1b788e;
+  color: #fff;
+  text-decoration: none;
+}
+.who {
+  padding: 80px 0;
+}
+.who .title {
+  font-size: 30px;
+  font-family: 'Open Sans', arial, sans-serif;
+  font-weight: 750;
+  color: #;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.who .intro {
+  margin: 0 auto;
+  max-width: 600px;
+  color: #666;
+  font-size: 18px;
+  color: #65758e;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+
+#box {
+background: rgba(180,180,180,0.15);
+  padding: 1%;
+  margin: 30px auto;
+  margin-bottom: 50px 60px;
+}
+h3 {
+  font-size: 13px;
+  color: #95959e;
+  font-family: "Russo One", arial, sans-serif;
+  text-align: left;
+  margin: 10px;
+}
+h3.title {
+  font-family: "Russo One", arial, sans-serif;
+  display: inline-block !important;
+}
+
+#box2 {
+background: rgba(180,180,180,0.15);
+  padding: 1%;
+  margin: 30px auto;
+  margin-bottom: 50px 60px;
+}
+
+h4 {
+  font-size: 13px;
+  color: #95959e;
+  font-family: "Russo One", arial, sans-serif;
+  text-align: left;
+  margin: 10px;
+}
+h4.title {
+  font-family: "Russo One", arial, sans-serif;
+  display: inline-block !important;
+}
+
+.button {
+    background: rgba(180,180,180,0.3);
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 6px;
+    margin-left: 80px;
+    cursor: pointer;
+}
